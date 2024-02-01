@@ -27,11 +27,7 @@ pipeline {
       }
         }*/
 
-     stage('Execute Jar'){
-        steps{
-            bat 'java -jar target/jenkins-docker-demo-0.0.1-SNAPSHOT.jar'
-        }
-     }
+    
 
   }
 }
